@@ -1,6 +1,6 @@
 code = files('module.c')
 
-curl = dependency('curl-8.6.0')
+curl = dependency('curl')
 lib = static_library('fscl-netwark-c',
     code,
     dependencies : curl,
